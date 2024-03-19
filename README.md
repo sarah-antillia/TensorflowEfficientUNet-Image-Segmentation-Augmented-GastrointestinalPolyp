@@ -430,7 +430,7 @@ https://arxiv.org/pdf/1911.07069v1.pdf
 <b>3. Semantic-Segmentation-Architecture</b><br>
 Nikhil Tomar <br>
 <pre>
-https://github.com/nikhilroxtomar/Semantic-Segmentation-Architecture/blob/main/TensorFlow/efficientnetb0_unet.py
+https://github.com/nikhilroxtomar/Semantic-Segmentation-Architecture
 </pre>
 
 
