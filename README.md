@@ -38,7 +38,7 @@ Our TensorflowEfficientUNet class is based on the following implementation.<br>
 Nikhil Tomar: Semantic-Segmentation-Architecture</a>
 <br>
  
-<h3>1. Dataset Citatioin</h3>
+<h3>1. Dataset Citation</h3>
 
 The image dataset used here has been taken from the following kaggle web site.<br>
 <a href="https://www.kaggle.com/datasets/debeshjha1/kvasirseg">Kvasir-SEG Data (Polyp segmentation & detection)</a>
@@ -214,7 +214,7 @@ alpah       = 1300
 sigmoid     = 8
 </pre>
 
-Please note that the online augementor 
+Please note that the online augmentor 
 <a href="./src/ImageMaskAugmentor.py">
 ImageMaskAugmentor.py</a> reads the parameters in [generator] and [augmentor] sections, and yields some images and mask depending on the batch_size,
  which are used for each epoch of the training and evaluation process of this UNet Model. 
@@ -307,7 +307,7 @@ Evaluation console output:<br>
 Test loss    :0.1439
 Test accuracy:0.9678999781608582
 </pre>
-As shown above, the loss score for the test dataset is better than that of the second experiment based on TensorflowSwinUNet Model 
+As shown above, the loss score for the test dataset is better than that of the third experiment based on TensorflowSwinUNet Model 
 <a href="https://github.com/sarah-antillia/TensorflowSwinUNet-Image-Segmentation-Augmented-GastrointestinalPolyp">TensorflowSwinUNet-Image-Segmentation-Augmented-GastrointestinalPolyp</a>
 <br>
 <img src="https://github.com/sarah-antillia/TensorflowSwinUNet-Image-Segmentation-Augmented-GastrointestinalPolyp/blob/main/projects/TensorflowSwinUNet/GastrointestinalPolyp/asset/evaluate_console_output_at_epoch_52.png"
