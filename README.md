@@ -30,12 +30,12 @@ TensorflowSwinUNet-Image-Segmentation-Augmented-GastrointestinalPolyp
 <br>
 
 <br>
-We use the EfficientNet-B0-Based-UNet Model
-<a href="./src/TensorflowEfficientUNet.py">TensorflowEfficientUNet.py</a> for this Skin-Cancer Segmentation.<br>
+We use the EfficientNet-Based-UNet Model
+<a href="./src/TensorflowEfficientUNet.py">TensorflowEfficientUNet.py</a> for this GastrointestinalPolyp Segmentation.<br>
 
 Our TensorflowEfficientUNet class is based on the following implementation.<br>
-<a href="https://github.com/nikhilroxtomar/Semantic-Segmentation-Architecture/blob/main/TensorFlow/efficientnetb0_unet.py">
-Nikhil Tomar: Semantic-Segmentation-Architecture</a>
+<a href="https://github.com/he44/EfficientNet-UNet/blob/master/efficientnet_unet/build_eunet.py">
+he44:EfficientNet-UNet</a>
 <br>
  
 <h3>1. Dataset Citation</h3>
@@ -212,6 +212,13 @@ shears   = [0.2]
 transformer = True
 alpah       = 1300
 sigmoid     = 8
+</pre>
+As shown above in [model] section, we use efficientnet-B0 model. On detail of other models, 
+please see also <a href="https://github.com/he44/EfficientNet-UNet/blob/master/efficientnet_unet/build_eunet.py">
+he44:EfficientNet-UNet</a>
+<pre>
+[model]
+efficientnet   = "B0"
 </pre>
 
 Please note that the online augmentor 
