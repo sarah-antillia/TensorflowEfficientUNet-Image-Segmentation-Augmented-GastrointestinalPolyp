@@ -214,7 +214,7 @@ alpah       = 1300
 sigmoid     = 8
 </pre>
 As shown above in [model] section, we use efficientnet-B0 model. On detail of other models, 
-please see also <a href="https://github.com/he44/EfficientNet-UNet/blob/master/efficientnet_unet/build_eunet.py">
+please see also <a href="https://github.com/he44/EfficientNet-UNet/blob/master/efficientnet_unet/keras_applications/efficientnet.py">
 he44:EfficientNet-UNet</a>
 <pre>
 [model]
